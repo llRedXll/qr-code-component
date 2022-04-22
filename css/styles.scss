@@ -12,8 +12,14 @@ html {
 
 
 body {
+    height: 100vh;
     background: var(--light-gray);
     font-size: 15px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -25,6 +31,24 @@ body {
     img {
         width: 100%;
         border-radius: 1rem;
+        margin-bottom: 2.4rem;
     }
-    
-  }
+
+    h4 {
+        color: var(--dark-blue);
+        font-size: 2.2rem;
+        font-weight: 700;
+        padding: 0px 15px;
+        line-height: 28px;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        color: var(--gray-blue);
+        line-height: 1.9rem;
+        letter-spacing: 0.1rem;
+        padding: 0 1rem;
+        margin-bottom: 3rem;
+    }
+
+}
